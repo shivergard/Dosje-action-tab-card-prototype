@@ -1,0 +1,109 @@
+/*--------------------------------------------------------------------
+                        linkedin environment
+---------------------------------------------------------------------*/
+
+body {
+    background: #e9e9e9;
+    font-family: sans-serif;
+}
+
+.column{
+    width: 646px;
+    margin: 0 auto;
+}
+
+/*-----------------------------------------------------------------------
+                            old brust card
+------------------------------------------------------------------------*/
+
+#brust-card {
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 1px, rgba(0, 0, 0, 0.027451) -1px 0px 0px, rgba(0, 0, 0, 0.027451) 1px 0px 0px, rgba(0, 0, 0, 0.117647) 0px 1px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.dosje-headding {
+    margin-top: -20px;
+    margin-bottom: 0px;
+    margin-left: -20px;
+    margin-right: 0px;
+    background: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: bold;
+    padding: 7.5px 20px;
+    display: inline-block;
+    zoom: 1;
+    vertical-align: top;
+    word-wrap: normal;
+}
+
+
+.burst-card, .salary-block {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+    position: relative;
+}
+
+/*-----------------------------------------------------------------------------
+                        new Dosje action tabs card
+-----------------------------------------------------------------------------*/
+
+#dosje-tabs-container {
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 1px, rgba(0, 0, 0, 0.027451) -1px 0px 0px, rgba(0, 0, 0, 0.027451) 1px 0px 0px, rgba(0, 0, 0, 0.117647) 0px 1px 0px;
+    line-height: 1.5;
+    position: relative;
+}
+
+#dosje-tabs-container .tabs-menu{
+
+}
+
+
+.block-logo, .tabs-menu a {
+    color: #2e7da3;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 13px;
+    line-height: 17px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+
+.tabs-menu a.current {
+    background: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+}
+
+.tab {
+    border-top: 1px solid #d4d4d1;
+    width: auto;
+    padding: 15px;
+}
+
+.tab-content {
+    display: none;
+}
+
+#tab-1 {
+    display: block;
+}
+
+.block-logo {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: rgba(29, 33, 255, 0.96);
+}
+
