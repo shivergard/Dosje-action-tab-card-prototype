@@ -1,4 +1,4 @@
-body, div, p, ul, h3, a, span{
+body, div, p, ul, h3, h4, a, span{
     margin: 0;
 }
 /**
@@ -41,7 +41,7 @@ body {
     width: 646px;
     margin: 0 auto;
 }
-p, li, ul, a, span {
+p, li, ul, a, span, time {
     font-size: 13px;
 }
 
@@ -97,6 +97,10 @@ p, li, ul, a, span {
     line-height: 1.5;
     position: relative;
     margin-bottom:10px;
+    font-size: 13px;
+}
+#dosje-tabs-container h3{
+    font-size: 18px;
 }
 
 #dosje-tabs-container .tabs-menu{
@@ -246,9 +250,19 @@ p, li, ul, a, span {
     border-color: #69B51C;
     color: #246B0D;
 }
-<<<<<<< HEAD
-=======
-.button-deactivated {
-    background-color: gary;
+
+time {
+    display: block;
+    width: 100%;
+ }
+time .beckward-time{
+    float: right;
 }
->>>>>>> 800fc629a7d05919a475b74cb2eb7e0ae38d9e60
+
+.comments-tab article{
+    margin-bottom: 10px;
+}
+
+.comments-tab {
+    padding-top: 25px;
+}
