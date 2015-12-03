@@ -27,9 +27,8 @@
     <div id="dosje-tabs-container">
         <nav class="tabs-menu cf">
            <a class="current" href="#tab-1">Vacancy Details</a>
-            <a href="#tab-2">History</a>
-            <a href="#tab-3">Contact</a>
             <a href="#tab-4">Comments</a>
+            <a href="#tab-3">Contact</a>
         </nav>
         <a href="#" class="block-logo">Dosje.in</a>
         <div class="tab">
@@ -53,7 +52,7 @@
                     
                     <article>
                         <p>Required skillset: <span class="confirmed-keyword">PHP</span>,  <span class="confirmed-keyword">HTML</span>, <span class="un-confirmed-keyword">Java</span>, <span class="un-confirmed-keyword">Ruby</span>, <span class="confirmed-keyword">js</span>, <span class="confirmed-keyword">CSS</span></p>
-                        <p>Other info: job in Riga with eng lang necessity</p>
+                        <p>Other info: job in Riga with eng lang necessity.</p>
                         <p>Sallary range: 900 to 1200</p>
                     </article>
 
@@ -68,16 +67,26 @@
                 </article>
                 <article class="vacancy">
                     <h3>Software development manager</h3>
-                    <p>Sallary range: 900 to 1200</p>
-                    <p>Required skillset: php, html, Java, Ruby, js, css</p>
-                    <p>Other info: job in Riga with eng lang necessity </p>
-                    <ul>
-                        <li>invite to linkedin, statuss: not connected</li>
-                        <li>send vacancy description, statuss: not sent</li>
-                        <li>request unpdated CV, statuss: cv updated 12.09.2012</li>
-                        <li>invite to interview, statuss: not accepted for interview</li>
-                        <li>hire, statuss: not aproved for hire</li>
+
+                    <nav class="vacancy-subnav">
+                        <a href="#">full description</a>
+                        <a href="#">employer info</a>
+                    </nav>
+                    
+                    <article>
+                        <p>Required skillset: <span class="confirmed-keyword">HR</span>,  <span class="confirmed-keyword">Human relations</span>,  <span class="confirmed-keyword">HTML</span>, <span class="un-confirmed-keyword">Java</span>, <span class="un-confirmed-keyword">Software architecture</span>, <span class="confirmed-keyword">Web developement</span>, <span class="confirmed-keyword">Team management</span>, <span class="confirmed-keyword">Scrum</span>, <span class="confirmed-keyword">Agile</span></p>
+                        <p>Other info: job in Riga with eng lang necessity and frequent travel.</p>
+                        <p>Sallary range: 1000 to 1300</p>
+                    </article>
+
+                    <ul class="task-list cf">
+                        <li><button class="button button-completed">invite to linkedin</button> Statuss: Connected in linkedin and Dosje</li>
+                        <li><button class="button button-completed">send vacancy</button> Statuss: Vacancy description sent on 02.12.2015</li>
+                        <li><button class="button button-completed">update CV</button> Statuss: CV updated on 03.12.2015</li>
+                        <li><button class="button button-active">interview invite</button> Statuss: Not invited to interview</li>
+                        <li><button class="button button-active">hire</button> Statuss: Not aproved for hiring</li>
                     </ul> 
+
                 </article>
             </div>
             <div id="tab-2" class="tab-content">
@@ -372,6 +381,44 @@
             <div id="tab-4" class="tab-content">
                 <p>Proin sollicitudin tincidunt quam, in egestas dui tincidunt non. Maecenas tempus condimentum mi, sed convallis tortor iaculis eu. Cras dui dui, tempor quis tempor vitae, ullamcorper in justo. Integer et lorem diam. Quisque consequat lectus eget urna molestie pharetra. Cras risus lectus, lobortis sit amet imperdiet sit amet, eleifend a erat. Suspendisse vel luctus lectus. Sed ac arcu nisi, sit amet ornare tellus. Pellentesque nec augue a nibh pharetra scelerisque quis sit amet felis. Nullam at enim at lacus pretium iaculis sit amet vel nunc. Praesent sapien felis, tincidunt vitae blandit ut, mattis at diam. Suspendisse ac sapien eget eros venenatis tempor quis id odio. Donec lacus leo, tincidunt eget molestie at, pharetra cursus odio. </p>
             </div>
+        </div>
+    </div>
+
+<div id="dosje-tabs-container">
+    <nav class="tabs-menu cf">
+       <a class="current" href="#tab-1">Dosje login</a>
+        
+    </nav>
+    <a href="#" class="block-logo">Dosje.in</a>
+    <div class="tab">
+        <div id="tab-1" class="tab-content">
+            
+            <article class="vacancy login">
+                <h3>Login to Dosje</h3>
+
+                <nav class="vacancy-subnav">
+                    <a href="#">terms and conditions</a>
+                    <a href="#">help and support</a>
+                </nav>
+                
+                <article>
+                    <form>
+                        Email:<br>
+                        <input type="email" name="email" placeholder"email@email.com">
+                        <br>
+                        Password:<br>
+                        <input type="password" name="password">
+                    </form>
+                    <p>
+                    <a>forgot password</a><br>
+                    </p>
+                    <button type="submit">Submit</button>
+                    <p>
+                    <a>create account</a>
+                    </p>
+                </article>
+
+            </article>
         </div>
     </div>
 </div>
