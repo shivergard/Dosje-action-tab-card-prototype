@@ -151,6 +151,29 @@ p, li, ul, a, span {
     padding: 30px 0;
     border-bottom: 1px solid #d4d4d1;
 }
+.vacancy article, .no-info article{
+    margin-bottom: 15px;
+}
+
+.no-info article:last-child{
+    margin-bottom: 0;
+}
+
+.vacancy-subnav {
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.vacancy-subnav a {
+    padding: 0 10px;
+    border-right: 1px solid #6B6B6B;
+    text-decoration: none;
+    color: #6B6B6B;
+}
+
+.vacancy-subnav a:hover{
+    text-decoration: underline;
+}
 
 .vacancy:last-child{
     border-bottom: none;
@@ -208,12 +231,6 @@ p, li, ul, a, span {
     float: left;
 }
 
-.task-list li:hover{
-}
-
-.task-list .button {
-}
-
 .button {
     background: rgb(224, 224, 224);
     border-radius: 3px;
@@ -229,3 +246,9 @@ p, li, ul, a, span {
     border-color: #69B51C;
     color: #246B0D;
 }
+<<<<<<< HEAD
+=======
+.button-deactivated {
+    background-color: gary;
+}
+>>>>>>> 800fc629a7d05919a475b74cb2eb7e0ae38d9e60
