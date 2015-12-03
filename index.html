@@ -25,7 +25,7 @@
 </span></div>
 
     <div id="dosje-tabs-container">
-        <nav class="tabs-menu">
+        <nav class="tabs-menu cf">
            <a class="current" href="#tab-1">Vacancy Details</a>
             <a href="#tab-2">History</a>
             <a href="#tab-3">Contact</a>
@@ -34,24 +34,43 @@
         <a href="#" class="block-logo">Dosje.in</a>
         <div class="tab">
             <div id="tab-1" class="tab-content">
-                <article class="vacancy-tile">
-                    <h3>Software developer</h3>
-                    <p>Sallary range: 900 to 1200</p>
-                    <p>Required skillset: php, html, Java, Ruby, js, css</p>
-                    <p>Other info: job in Riga with eng lang necessity <a href="#">full description</a></p>
-                    <ul>
-                        <li>invite to linkedin, statuss: not connected</li>
-                        <li>send vacancy description, statuss: not sent</li>
-                        <li>request unpdated CV, statuss: cv updated 12.09.2012</li>
-                        <li>invite to interview, statuss: not accepted for interview</li>
-                        <li>hire, statuss: not aproved for hire</li>
+                <article class="no-info">
+                    <article>
+                        <h3>You have no information on this person!</h3>
+                        <ul class="task-list cf">
+                        <li><button class="button button-active">Invite</button> Statuss: Person not conected in linkedin</li>
+                        <li><button class="button button-active">Add person</button> Statuss: Person not connected to Dosje.in</li>
                     </ul> 
+                    </article>
                 </article>
-                <article class="vacancy-tile">
+                <article class="vacancy">
+                    <h3>Software developer</h3>
+
+                    <nav class="vacancy-subnav">
+                        <a href="#">full description</a>
+                        <a href="#">employer info</a>
+                    </nav>
+                    
+                    <article>
+                        <p>Required skillset: <span class="confirmed-keyword">PHP</span>,  <span class="confirmed-keyword">HTML</span>, <span class="un-confirmed-keyword">Java</span>, <span class="un-confirmed-keyword">Ruby</span>, <span class="confirmed-keyword">js</span>, <span class="confirmed-keyword">CSS</span></p>
+                        <p>Other info: job in Riga with eng lang necessity</p>
+                        <p>Sallary range: 900 to 1200</p>
+                    </article>
+
+                    <ul class="task-list cf">
+                        <li><button class="button button-completed">invite to linkedin</button> Statuss: Connected in linkedin and Dosje</li>
+                        <li><button class="button button-active">send vacancy</button> Statuss: Vacancy description not sent</li>
+                        <li><button class="button button-active">update CV</button> Statuss: No information on CV</li>
+                        <li><button class="button button-active">interview invite</button> Statuss: Not invited to interview</li>
+                        <li><button class="button button-active">hire</button> Statuss: Not aproved for hiring</li>
+                    </ul> 
+
+                </article>
+                <article class="vacancy">
                     <h3>Software development manager</h3>
                     <p>Sallary range: 900 to 1200</p>
                     <p>Required skillset: php, html, Java, Ruby, js, css</p>
-                    <p>Other info: job in Riga with eng lang necessity <a href="#">full description</a></p>
+                    <p>Other info: job in Riga with eng lang necessity </p>
                     <ul>
                         <li>invite to linkedin, statuss: not connected</li>
                         <li>send vacancy description, statuss: not sent</li>
