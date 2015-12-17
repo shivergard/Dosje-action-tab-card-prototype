@@ -11,19 +11,6 @@
 <body>
 
 <div class="column">
-
-<div data-intro="This contains information you gathered about this person" id="brust-card">
-   <h2 class="dosje-headding">Dosje Details</h2>
-   <div data-intro="This is salary , that person is interested in - you can edit it by double click on this block" class="salary-block"><span class="salary_span">Requested Sallary: 0</span></div>
-   <div data-intro="Here are tasks that you have to do , or what you have done with candidate" class="burst-card"><br><p scope="row" data-step="5" data-intro="Information and tasks for every vacancy (in this case Tester position)" style="margin-bottom:5px;"><span class="descr">Vacancy:</span> <b>Tester position</b><br><span class="descr">Keywords:</span><font color="red"> patience </font> , <font color="red">  automated tests </font> , <font color="green">  js </font> , </p><p class="desje-checbox" scope="row"><input class="task_updater" vac_name="Tester position" type="checkbox" name="Interview fail" value="true">Failed interview</p><p class="desje-checbox" scope="row"><input class="task_updater" vac_name="Tester position" type="checkbox" name="Inteview" value="true">Passed interview</p><p class="desje-checbox" scope="row"><input class="task_updater" vac_name="Tester position" type="checkbox" name="Invite" value="true">Invited to dosje</p><br><p scope="row" data-step="5" data-intro="Information and tasks for every vacancy (in this case Dosje developer)" style="margin-bottom:5px;"><span class="descr">Vacancy:</span> <b>Dosje developer</b><br><span class="descr">Keywords:</span><font color="green"> php </font> , <font color="red">  ruby </font> , <font color="red">  html </font> , </p><p class="desje-checbox" scope="row"><input class="task_updater" vac_name="Dosje developer" type="checkbox" name="Interview fail" value="true">Failed interview</p><p class="desje-checbox" scope="row"><input class="task_updater" vac_name="Dosje developer" type="checkbox" name="Inteview" value="true">Passed interview</p><p class="desje-checbox" scope="row"><input class="task_updater" vac_name="Dosje developer" type="checkbox" name="Invite" value="true">Invited to dosje</p></div>
-   <div data-intro="This is comment block , here you can see last 5 comments about this person" class="dosje-coments">
-      <h3>Comments:</h3>
-   <p scope="row"><span vac="none" class="fromNow">a few seconds ago</span>  :  this comment</p></div>
-   <div class="dosje-buttons"></div>
-<span data-intro="And this is basic commenting buttons">
-    <div class="katy-button-group button-group-secondary comment_person">comment</div>
-</span></div>
-
     <div id="dosje-tabs-container">
         <nav class="tabs-menu cf">
            <a class="current" href="#tab-1">Vacancy Details</a>
@@ -94,14 +81,15 @@
                 <section class="comments-tab">
 
                     <article>
-                        <form>
-                            Subject:
-                            <input type="text" name="subject">
-                            <br>
-                            Comment text
-                            <input type="text" name="comment-text"><br>
-                            <button>Comment</button>
-                            <button>Cancel</button>
+                        <form class="dosje-form dosje-comments cf">
+                            <label class="dosje-label" for="dosje-comment-headding">Subject:</label>
+                            <input class="dosje-input" id="dosje-comment-headding" type="text" name="subject">
+                            <label class="dosje-label" for="dosje-comment">Comment text</label>
+                            <textarea rows="3" class="dosje-input dosje-comment-textfield"
+                                   id="dosje-comment"
+                                   name="comment-text"></textarea>
+                            <button class="button button-blue dosje-login-button dosje-right" style="margin:0;">Comment
+                            </button>
                         </form>
                     </article>
 
@@ -147,25 +135,23 @@
                 <h3>Login to Dosje</h3>
 
                 <nav class="vacancy-subnav">
+                    <a>create account</a>
                     <a href="#">terms and conditions</a>
-                    <a href="#">help and support</a>
                 </nav>
                 
                 <article>
-                    <form>
-                        Email:<br>
-                        <input type="email" name="email" placeholder"email@email.com">
-                        <br>
-                        Password:<br>
-                        <input type="password" name="password">
+                    <form class="dosje-form cf">
+                        <label class="dosje-label" for="dosje-email">Email
+                            :<span class="dosje-right dosje-error">Not registered</span></label>
+                        <input class="dosje-input dosje-field-error" type="email" name="email" id="dosje-email"
+                               placeholder="email@email.com">
+                        <label class="dosje-label" for="dosje-password">Password:</label>
+                        <input class="dosje-input" type="password" id="dosje-password" name="password"
+                               placeholder="password">
+                        <button type="submit" class="button button-blue dosje-login-button dosje-right">Login</button>
+                        <a href="#" class="dosje-forgot-password">new password</a><br>
+
                     </form>
-                    <p>
-                    <a>forgot password</a><br>
-                    </p>
-                    <button type="submit">Login</button>
-                    <p>
-                    <a>create account</a>
-                    </p>
                 </article>
 
             </article>
