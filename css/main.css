@@ -45,6 +45,17 @@ p, li, ul, a, span, time {
     font-size: 13px;
 }
 
+.dosje-underline {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #d4d4d1;
+    margin-bottom: 25px;
+}
+
+.dosje-info-exp,
+.dosje-info-exp a{
+  color: #ABABAB;;
+}
+
 /*-----------------------------------------------------------------------
                             old brust card
 ------------------------------------------------------------------------*/
@@ -323,11 +334,6 @@ time {
 time .beckward-time{
     float: right;
 }
-
-.comments-tab article{
-    margin-bottom: 10px;
-}
-
 .comments-tab {
     padding-top: 25px;
 }
