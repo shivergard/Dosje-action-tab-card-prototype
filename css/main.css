@@ -28,76 +28,20 @@ body, div, p, ul, h3, h4, a, span{
     *zoom: 1;
 }
 /*--------------------------------------------------------------------
-                        linkedin environment
+                        linkedin environment - not for production
 ---------------------------------------------------------------------*/
-
+/*body styles for mockup*/
 body {
     background: #e9e9e9;
     font-family: sans-serif;
     padding:50px 0;
 }
 
+/* container for mockup */
 .column{
     width: 646px;
     margin: 0 auto;
 }
-p, li, ul, a, span, time {
-    font-size: 13px;
-}
-
-.dosje-underline {
-    padding-bottom: 25px;
-    border-bottom: 1px solid #d4d4d1;
-    margin-bottom: 25px;
-}
-
-.dosje-info-exp,
-.dosje-info-exp a{
-  color: #ABABAB;;
-}
-
-/*-----------------------------------------------------------------------
-                            old brust card
-------------------------------------------------------------------------*/
-/*
-#brust-card {
-    background: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 1px, rgba(0, 0, 0, 0.027451) -1px 0px 0px, rgba(0, 0, 0, 0.027451) 1px 0px 0px, rgba(0, 0, 0, 0.117647) 0px 1px 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    position: relative;
-    line-height: 1.5;
-}
-
-.dosje-headding {
-    margin-top: -20px;
-    margin-bottom: 0px;
-    margin-left: -20px;
-    margin-right: 0px;
-    background: rgb(51, 51, 51);
-    color: rgb(255, 255, 255);
-    font-size: 13px;
-    line-height: 17px;
-    font-weight: bold;
-    padding: 7.5px 20px;
-    display: inline-block;
-    zoom: 1;
-    vertical-align: top;
-    word-wrap: normal;
-}
-
-
-.burst-card, .salary-block {
-    padding-bottom: 15px;
-    padding-top: 15px;
-    border-bottom: 1px solid rgb(232, 232, 232);
-    position: relative;
-}
-*/
 
 /*-----------------------------------------------------------------------------
                         new Dosje action tabs card
@@ -245,12 +189,10 @@ p, li, ul, a, span, time {
     width: 100%;
     float: left;
 }
-.dosje-left{
-    float: left;
-}
-.dosje-right{
-    float: right;
-}
+
+/*---------------------------------------
+                buttons
+----------------------------------------*/
 
 .button {
     background: rgb(224, 224, 224);
@@ -290,6 +232,23 @@ p, li, ul, a, span, time {
     border-top: 1px solid #d4d4d1;
     padding-top: 15px;
 }
+/*------------------------------------------
+          utility and typography
+--------------------------------------------*/
+p, li, ul, a, span, time {
+    font-size: 13px;
+}
+.dosje-left{
+    float: left;
+}
+.dosje-right{
+    float: right;
+}
+/* for info texts like "*comments are only seen by you more info"*/
+.dosje-info-exp,
+.dosje-info-exp a{
+    color: #ABABAB;;
+}
 /*----------------------------------------
              login form styles
 ------------------------------------------*/
@@ -326,11 +285,11 @@ p, li, ul, a, span, time {
 /*-----------------------------------------------
                   comments block
 -------------------------------------------------*/
-.dosje-comments{
-    width: 100%;
-}
 .comments-tab {
     padding-top: 25px;
+}
+.dosje-comments{
+    width: 100%;
 }
 .dosje-comments .dosje-input{
     width: 250px;
@@ -339,13 +298,11 @@ p, li, ul, a, span, time {
     width: 100%;
     resize: vertical;
  }
-time {
+.dosje-comments time {
     display: block;
     width: 100%;
  }
-time .dosje-comment-time{
 
-}
 .dosje-comment{
     margin-top: 15px;
     border-top: 1px solid #d4d4d1;
@@ -361,3 +318,6 @@ time .dosje-comment-time{
 .dosje-comment:hover > .dosje-secondary-action-bar{
     display: block;
 }
+/*-----------------------------------------------
+                  contact block
+-------------------------------------------------*/
