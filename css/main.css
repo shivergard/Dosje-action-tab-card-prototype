@@ -147,7 +147,7 @@ p, li, ul, a, span, time {
     display: none;
 }
 
-#tab-2 {
+#tab-1 {
     display: block;
 }
 
@@ -276,10 +276,19 @@ p, li, ul, a, span, time {
     background-color: #46599E;
     border-color: #244073;
 }
+.button-gray {
+    color: gray;
+}
 .dosje-login-button{
     min-width: 116px;
     display: block;
     padding: 6px;
+}
+.dosje-button-container{
+    width: 100%;
+    margin-top: 15px;
+    border-top: 1px solid #d4d4d1;
+    padding-top: 15px;
 }
 /*----------------------------------------
              login form styles
@@ -320,6 +329,9 @@ p, li, ul, a, span, time {
 .dosje-comments{
     width: 100%;
 }
+.comments-tab {
+    padding-top: 25px;
+}
 .dosje-comments .dosje-input{
     width: 250px;
 }
@@ -331,9 +343,21 @@ time {
     display: block;
     width: 100%;
  }
-time .beckward-time{
-    float: right;
+time .dosje-comment-time{
+
 }
-.comments-tab {
-    padding-top: 25px;
+.dosje-comment{
+    margin-top: 15px;
+    border-top: 1px solid #d4d4d1;
+    padding-top: 15px;
+    position: relative;
+}
+.dosje-secondary-action-bar{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    display: none;
+}
+.dosje-comment:hover > .dosje-secondary-action-bar{
+    display: block;
 }

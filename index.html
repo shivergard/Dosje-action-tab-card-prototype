@@ -14,7 +14,7 @@
     <div id="dosje-tabs-container">
         <nav class="tabs-menu cf">
            <a class="current" href="#tab-1">Vacancy Details</a>
-            <a href="#tab-2">History</a>
+            <a href="#tab-2">Comments</a>
             <a href="#tab-3">Contact</a>
         </nav>
         <a href="#" class="block-logo">Dosje.in</a>
@@ -80,7 +80,7 @@
 
                 <section class="comments-tab">
 
-                    <article class="dosje-underline">
+                    <article>
                         <form class="dosje-form dosje-comments cf">
                             <label class="dosje-label" for="dosje-comment-headding">Subject:</label>
                             <input class="dosje-input" id="dosje-comment-headding" type="text" name="subject">
@@ -94,25 +94,57 @@
                         </form>
                     </article>
 
-                    <article>
+                    <article class="dosje-comment">
+                        <div class="dosje-secondary-action-bar">
+                            <button class="dosje-edit">edit</button>
+                            <button class="dosje-delete">delete</button>
+                        </div>
                         <h4>Review after 2. part of interview for Pinty haired company</h4>
                         <p>This person is expensive as fuck! Nobody gona pat that sallary to mere coder who optimizes all the processes in the company and invents technology and processes that reduces the need of live bodys in the office.</p>
-                        <time datetime="2001-05-15T19:00">May 15, 2005 <span class="beckward-time">five days ago</span></time>
+                        <time datetime="2001-05-15T19:00"><span>comment made </span><span
+                                class="dosje-comment-time">five days ago, </span>( May
+                            15,
+                            2005 )</time>
                     </article>
-                    <article>
+                    <article class="dosje-comment">
+                        <div class="dosje-secondary-action-bar">
+                            <button class="dosje-edit">edit</button>
+                            <button class="dosje-delete">delete</button>
+                        </div>
                         <h4>Review after competence assesment test</h4>
                         <p>This person is great!</p>
-                        <time datetime="2001-05-15T19:00">May 15, 2005 <span class="beckward-time">five days ago</span></time>
+                        <time datetime="2001-05-15T19:00"><span>comment made </span></span><span
+                                class="dosje-comment-time">five weeks
+                            ago, </span>(
+                            May
+                            15, 2005 )</time>
                     </article>
-                    <article>
+                    <article class="dosje-comment">
+                        <div class="dosje-secondary-action-bar">
+                            <button class="dosje-edit">edit</button>
+                            <button class="dosje-delete">delete</button>
+                        </div>
                         <h4>Added to Dosje.in</h4>
-                        <time datetime="2001-05-15T19:00">May 15, 2005 <span class="beckward-time">five days ago</span></time>
+                        <time datetime="2001-05-15T19:00"><span class="beckward-time">a year ago, </span>May 15, 2005
+                            </time>
                     </article>
-                    <article>
+                    <article class="dosje-comment">
+                        <div class="dosje-secondary-action-bar">
+                            <button class="dosje-edit">edit</button>
+                            <button class="dosje-delete">delete</button>
+                        </div>
                         <h4>Added to contact list</h4>
-                        <time datetime="2001-05-15T19:00">May 15, 2005 <span class="beckward-time">five days ago</span></time>
+                        <time datetime="2001-05-15T19:00"><span></span></span></span><span
+                                class="dosje-comment-time">a year
+                            ago, </span>(
+                            May
+                            15,
+                            2005 )</time>
                     </article>
-                    <button>show older</button>
+                    <div class="dosje-button-container cf">
+                        <button class="button button-blue dosje-login-button dosje-right">Show older</button>
+                        <button class="button button-gray dosje-login-button dosje-right">Hide older</button>
+                    </div>
 
                 </section>
 
