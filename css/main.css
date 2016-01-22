@@ -113,7 +113,16 @@ body {
 .vacancy article, .no-info article{
     margin-bottom: 15px;
 }
-
+.dosje-contacts h3{
+    padding-bottom: 15px;
+}
+ .dosje-contacts article {
+     padding-bottom: 25px;
+ }
+.dosje-contacts article p span{
+    width: 23%;
+    display: inline-block;
+}
 .no-info article:last-child{
     margin-bottom: 0;
 }
@@ -285,7 +294,8 @@ p, li, ul, a, span, time {
 /*-----------------------------------------------
                   comments block
 -------------------------------------------------*/
-.comments-tab {
+.comments-tab,
+.dosje-contacts{
     padding-top: 25px;
 }
 .dosje-comments{
